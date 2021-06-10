@@ -1,0 +1,86 @@
+ 
+<html> 
+<head> 
+   <style>
+      .blink {
+        animation: blinker 0.6s linear infinite;
+        color: #1c87c9;
+        font-size: 17px;
+        font-weight: Normal;
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+                hr {
+                        border-top: 5px solid black;
+                   }
+        </style>
+        <style>
+                img {
+                        border: 5px solid red;
+                   }
+        </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+                   $(document).ready(function(){
+                         $(".tr3").mouseup(function(){
+                            $(".tr3").toggle(2000);
+                         });
+                   });
+        </script>
+	<script>
+             $(document).ready(function(){
+                 $("#tr2").select(function(){
+                       var n = document.getElementById(tr2).value;
+                       alert("you have selected thems price value is : : " n);
+                 });
+                  $("#tr1").select(function(){
+                       var n = document.getElementById("tr1").value;
+                       alert("you have selected thems price value is : : " + n);
+                 });   
+             });
+        </script>
+	<script>
+		function myFunction() {
+  		alert("You click in Wedding Theme");
+		}
+	</script>
+
+<style>
+h1 {text-align: center;}
+</style>
+   <title>Luxury Events And Wedding Planners</title> 
+</head> 
+<body> 
+    <h1 style="color:blue;">Luxury Events And Wedding Planners</h1> 
+    <hr height="10" width="60%" align="left" noshade>
+    <hr height="10" width="60%" align="right" noshade> 
+    <img src="https://i.pinimg.com/736x/8d/fd/db/8dfddb998fb78e6f2415b7718a60a13a.jpg" width="100" hetght="100" align="left"> 
+    <img src="https://i.pinimg.com/736x/8d/fd/db/8dfddb998fb78e6f2415b7718a60a13a.jpg" width="100" hetght="100" align="left"> 
+    <br> 
+    <br> 
+    <h5 altgn="left">Give us a chance to make your wedding unforgateable</h5> 
+    <br> 
+    <br>
+    <p>Choose from a list of some popular themes (or create your own theme)</p> 
+    <table border="2"> 
+        <caption>PRICE RANGE</caption> 
+        <tr>    
+            <td onclick="myFunction()"><a href="FLOCK_THEMES.html" style="color:Red">FOLK THEME</td> 
+            <td id="tr1">1 LAKH- 3 LAKH</td> 
+        </tr> 
+        <tr> 
+            <td  class="blink" ><a href="MODERN_THEMES.html" style="color:Red">MODERN THEME</td> 
+            <td id="tr2">1.5 LAKH - 3 LAKH</td> 
+        </tr> 
+        <tr> 
+            <td><a href="CUSTOME_THEMES.html" style="color:Red">CUSTOM THEME</td> 
+            <td id="tr3">VARIABLE</td>   
+        </tr> 
+    </table> 
+		
+</body> 
+</html>
