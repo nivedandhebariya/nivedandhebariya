@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flight xmlns:xlink="http://Pr5.xml/1999/xlink">
+  <flight xlink:type="simple" xlink:href="C:\Users\NIVEDAN\Desktop\825.xml">flight</flight>
+   	<airline id="CM1">
+      		<airlinename> IndiGo </airlinename>
+      		<fromlocation> Ahmadabad </fromlocation>
+		<tolocation> Hyderabad </tolocation>
+		<departurrtime> 07:45:00 AM </departurrtime>
+		<Arrivaltime> 10:45:00 AM </Arrivaltime>
+		<Totalnoofseats> 180 </Totalnoofseats>
+	</airline>
+	<airline id="MP5">
+      		<airlinename> Air India </airlinename>
+      		<fromlocation> Surat </fromlocation>
+		<tolocation> New Delhi </tolocation>
+		<departurrtime> 01:00:00 AM </departurrtime>
+		<Arrivaltime> 04:00:00 PM </Arrivaltime>
+		<Totalnoofseats> 140 </Totalnoofseats>
+	</airline>
+	<airline id="ND1">
+      		<airlinename> SpiceJet </airlinename>
+      		<fromlocation> Vadodara </fromlocation>
+		<tolocation> Goa </tolocation>
+		<departurrtime> 05:30:00 PM </departurrtime>
+		<Arrivaltime> 08:00:00 PM </Arrivaltime>
+		<Totalnoofseats> 255 </Totalnoofseats>
+	</airline>
+	<airline id="KP6">
+      		<airlinename> GoAir </airlinename>
+      		<fromlocation> Puna </fromlocation>
+		<tolocation> Kolkata </tolocation>
+		<departurrtime> 12:45:00 AM </departurrtime>
+		<Arrivaltime> 03:10:00 PM </Arrivaltime>
+		<Totalnoofseats> 300 </Totalnoofseats>
+	</airline>
+	<airline id="WQ9">
+      		<airlinename> AirAsia India </airlinename>
+      		<fromlocation> Diu </fromlocation>
+		<tolocation> Mumbai </tolocation>
+		<departurrtime> 01:00:00 AM </departurrtime>
+		<Arrivaltime> 04:00:00 PM </Arrivaltime>
+		<Totalnoofseats> 280 </Totalnoofseats>
+	</airline>
+</flight> 
+        
