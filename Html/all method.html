@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+c
+  $("#btn2").click(function(){
+    $("p").after("<p>You have click on after button</p>");
+ });
+  $("#btn3").click(function(){
+    $("p").before("<p>Hello</p>");
+  });
+   $("#btn4").click(function(){
+    $("p").empty();
+  });  
+   $("#btn5").click(function(){
+    $("p").clone().appendTo("body");
+  });
+});   
+
+</script>
+</head>
+<body>
+
+<p>This is my first example.</p>
+<button id ="btn1">Add</button>
+<button id ="btn2"> After </button>
+<button id ="btn3"> Before </button>
+<button id ="btn4"> Empty </button>
+<button id ="btn5"> copy </button>
+</body>
+</html>

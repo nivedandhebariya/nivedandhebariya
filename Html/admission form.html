@@ -1,0 +1,52 @@
+<html>
+<head>
+  <h1 align="center">admission form</h1>
+</head>
+<body>
+<script  type="text/javascript">
+ function my function(score,mark)
+  {
+   if(score=="" || mark=="")
+   {
+    alert("plz enter admission score and 12th std mark");
+   }
+    else if(mark>70 ||mark>45 && mark<=69)
+    {
+     if(score>=60 || score>=80)
+     {
+      alert("you are eligible for talking admission");
+      }
+    }
+   else
+  {
+    alert("admission request rejected");
+  }
+ }
+</script>
+<table border="5" align="center">
+<form>
+<tr><td>full form:</td><td><input type="text" id="fname" placeholder="enter full name" required/></td></tr>
+<tr><td>email id:</td><td><input type="text" id="email id" placeholder="enter email id" required/></td></tr>
+<tr><td><lable for="pin code">pin code</lable></td><td><input type="text" id="pincode" maxlength="6"  placeholder="enter pin code" required/></td></tr>
+<tr><td>gender:</td><td><input type="radio" id="male" name="gender" value="male">male
+      <input type="radio" id="female" name="gender" value="female">female</td></tr>
+<tr><td>stream of 12th std:</td><td><input type="radio" id="steram" name="steram" value="commerce" required/>commerce
+      <input type="radio" id="steram" name="steram" value="science" required/>science
+      <input type="radio" id="steram" name="steram" value="diploma" required/>diploma
+      <input type="radio" id="steram" name="steram" value="arts" required/>arts</td></tr>
+<tr><td>percentage of 12th std:</td><td><input type="text" id="mark"  maxlength="100"  placeholder="enter % of 12th std" required/></td></tr>
+<tr><td>last school name:</td><td><input type="text" id="sname" placeholder="enter last school name" required/></td></tr>
+<tr><td>score of admission test:</td><td><input type="number"  id="score" required/></td></tr>
+<tr><td>course slection:</td><td><input type="radio" id="cslection" name="cslection" value="bca" required/>bca
+      <input type="radio" id="cslection" name="cslection" value="bcom" required/>bcom
+      <input type="radio" id="cslection" name="cslection" value="bsc" required/>bsc
+      <input type="radio" id="cslection" name="cslection" value="bba" required/>bba
+      <input type="radio" id="cslection" name="cslection" value="ba" required/>ba</td></tr>
+<tr><td>password:</td><td><input type="password"  maxlength="6" id="pwd" name="pwd" required/></td></tr>
+<tr><td>comfirm password:</td><td><input type="password" maxlength="6"  id="pwd" name="pwd" required/></td></tr>
+<tr><td><input type="checkbox" rname="chekgreetc" required/>i agree with terms & conditions</td></tr>
+<tr><td><input type="button" value="submit" onclick="myfunction(score.value,mark.value)"/></td></tr>
+</form>
+</table>
+</body>
+</html>
